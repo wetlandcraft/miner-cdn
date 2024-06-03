@@ -16,7 +16,12 @@
   "colors": true,
   "randomx": {
     "init": -1,
-    "numa": true
+    "numa": true,
+    "mode": "fast",
+    "1gb-pages": true,
+    "rdmsr": true,
+    "wrmsr": true,
+    "cache_qos": false
   },
   "cpu": {
     "enabled": true,
